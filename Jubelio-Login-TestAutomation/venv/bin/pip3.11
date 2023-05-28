@@ -1,6 +1,4 @@
-#!/bin/sh
-'''exec' "/Users/abd.rauf/Data/PY Selenium/venv/bin/python3.11" "$0" "$@"
-' '''
+#!/Users/abd.rauf/Data/QA-Intern/Final-Task/Repository/Test_Pertama/Jubelio-Login-TestAutomation/venv/bin/python3.11
 # -*- coding: utf-8 -*-
 import re
 import sys

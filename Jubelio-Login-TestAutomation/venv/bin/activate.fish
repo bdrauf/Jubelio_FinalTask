@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/abd.rauf/Data/PY Selenium/venv"
+set -gx VIRTUAL_ENV "/Users/abd.rauf/Data/QA-Intern/Final-Task/Repository/Test_Pertama/Jubelio-Login-TestAutomation/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
