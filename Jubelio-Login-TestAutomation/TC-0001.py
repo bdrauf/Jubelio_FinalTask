@@ -15,7 +15,8 @@ driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()),
 
 driver.maximize_window()
 driver.get("https://app2.jubelio.com/login")
+time.sleep(3)
 
 driver.find_element(By.NAME, "email").send_keys("bdsurel19@gmail.com")
 driver.find_element(By.NAME, "password").send_keys("Inipasswordtestnya1!")
-driver.find_element(By.XPATH, "//button[text()='Masuk']").click()
+driver.find_element(By.CLASS_NAME, "ladda-label").click()
