@@ -29,8 +29,9 @@ driver.find_element(By.XPATH, "//button[@class='ladda-button btn btn-primary m-l
 driver.find_element(By.NAME, "item_group_name").send_keys("Milo")
 #time.sleep(3)
 driver.find_element(By.CLASS_NAME, "selectivity-input").click()
-time.sleep(3)
-sel1=driver.find_element(By.CLASS_NAME, "selectivity-result-item")
 #time.sleep(3)
-#sel1.send_keys("Makanan" + Keys.RETURN)
-#sel1.click()
+
+sel1=driver.find_element(By.CLASS_NAME, "selectivity-search-input")
+sel1.send_keys("Makan"+Keys.RETURN)
+time.sleep(3)
+sel1.click()
