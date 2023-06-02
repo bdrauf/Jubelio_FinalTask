@@ -15,7 +15,7 @@ driver = webdriver.Chrome(
 )
 
 driver.maximize_window()
-driver.get("https://app2.jubelio.com/login")
+driver.get("https://app.jubelio.com/login")
 time.sleep(3)
 
 driver.find_element(By.CLASS_NAME, "ladda-label").click()
