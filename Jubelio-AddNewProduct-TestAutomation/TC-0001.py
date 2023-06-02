@@ -18,8 +18,8 @@ driver.maximize_window()
 driver.get("https://app2.jubelio.com/login")
 time.sleep(3)
 
-driver.find_element(By.NAME, "email").send_keys("pkumoviedb@gmail.com")
-driver.find_element(By.NAME, "password").send_keys("Inipasswordtestnya1!")
+driver.find_element(By.NAME, "email").send_keys("qa.rakamin.jubelio@gmail.com")
+driver.find_element(By.NAME, "password").send_keys("Jubelio123!")
 driver.find_element(By.CLASS_NAME, "ladda-label").click()
 time.sleep(3)
 driver.find_element(By.XPATH, "//span[text()='Barang']").click()
@@ -51,6 +51,7 @@ driver.find_element(
 ).send_keys(
     "lorem ipusm sit amet kemana ada memasuk apapun bentuknya laser kebudayan bende alah"
 )
-driver.find_element(By.CLASS_NAME, "gallery-content").send_keys(
-    "/Users/abd.rauf/Downloads/6.png"
+time.sleep(3)
+driver.find_element(By.CLASS_NAME, "rug-file-input").send_keys(
+    "Macintosh HD/Users/abd.rauf/Downloads/6.png"
 )

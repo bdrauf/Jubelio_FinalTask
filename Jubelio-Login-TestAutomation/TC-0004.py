@@ -10,8 +10,9 @@ import time
 options = Options()
 options.add_experimental_option("detach", True)
 
-driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()),
-                          options=options)
+driver = webdriver.Chrome(
+    service=Service(ChromeDriverManager().install()), options=options
+)
 
 driver.maximize_window()
 driver.get("https://app2.jubelio.com/login")
