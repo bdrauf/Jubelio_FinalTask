@@ -1,3 +1,9 @@
-# https://abdqatest001.atlassian.net/l/cp/sC4yqkGr open this link to see Jubelio Login Test Scenario
+# open this link to see Jubelio Login Test Scenario
 
-# Run Login Test Case code in Jubelio-Login-TestAutomation folder
+    https://abdqatest001.atlassian.net/l/cp/wF7f165J
+
+# Open this link to see Jubelio Create Product Scenarion
+
+    https://abdqatest001.atlassian.net/l/cp/faMMZVfH
+
+#
