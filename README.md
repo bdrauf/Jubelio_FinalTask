@@ -1,6 +1,6 @@
 # Open this link to see Jubelio Login Test Scenario
 
-    https://abdqatest001.atlassian.net/l/cp/wF7f165J
+    https://abdqatest001.atlassian.net/l/cp/k9jfb1FT
 
 # Open this link to see Jubelio Create Product Scenario
 
