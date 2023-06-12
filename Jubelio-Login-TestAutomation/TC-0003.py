@@ -21,3 +21,8 @@ time.sleep(3)
 driver.find_element(By.NAME, "email").send_keys("qa.rakamin.jubelio@gmail.com")
 driver.find_element(By.NAME, "password").send_keys("invalidpassword")
 driver.find_element(By.CLASS_NAME, "ladda-label").click()
+time.sleep(3)
+element = driver.find_element(By.XPATH, "//div[contains(@class, 'app-alert') and contains(@class, 'alert-danger')]")
+print(element.is_enabled(), '"User received notification "Password atau email anda salah"')
+
+driver.quit()

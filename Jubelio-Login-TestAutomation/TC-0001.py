@@ -22,7 +22,8 @@ driver.find_element(By.NAME, "email").send_keys("qa.rakamin.jubelio@gmail.com")
 driver.find_element(By.NAME, "password").send_keys("Jubelio123!")
 driver.find_element(By.CLASS_NAME, "ladda-label").click()
 time.sleep(3)
-homepage=driver.find_element(By.XPATH, "//*[text()='Jubelio - Selamat Datang']")
-print(homepage.is_enabled())
 assert "Jubelio - Selamat Datang" in driver.title, "Login failed. Not landed on the home page."
+homepage=driver.find_element(By.XPATH, "//*[text()='Jubelio - Selamat Datang']")
+print(homepage.is_enabled(), '"User landed at homepage"')
+
 driver.quit()
