@@ -21,3 +21,8 @@ time.sleep(3)
 driver.find_element(By.NAME, "email").send_keys("InvalidEmail")
 driver.find_element(By.NAME, "password").send_keys("invalidpassword")
 driver.find_element(By.CLASS_NAME, "ladda-label").click()
+time.sleep(3)
+element = driver.find_element(By.XPATH, "//div[@role='alert' and contains(@class, 'alert-danger')]")
+print(element.is_enabled(), "User received notification 'Format Email tidak valid")
+
+driver.quit()
