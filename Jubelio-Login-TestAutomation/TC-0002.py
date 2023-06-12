@@ -16,7 +16,7 @@ driver = webdriver.Chrome(
 
 driver.maximize_window()
 driver.get("https://app.jubelio.com/login")
-time.sleep(3)
+
 
 driver.find_element(By.NAME, "email").send_keys("InvalidEmail")
 driver.find_element(By.NAME, "password").send_keys("invalidpassword")
